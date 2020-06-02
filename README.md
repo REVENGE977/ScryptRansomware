@@ -26,6 +26,7 @@
 </p>
 
 <h3 align="center">Setup</h4>
+
   Setup is straight forward, run the following commands as listed here:
 ```
   pip install pyqt5
@@ -34,19 +35,19 @@
   pip install pycrypto
 ```
   Once you have all the dependencies installed go to your python file and modify this to include your information:
-  ```
+```
 btcAdd = ""
 email = ""
 discordWebhook = ""
-  ```
+```
   After you have fully set this up head over to command prompt and run the following commands:
-  ```
+```
   cd "your folder path to scrypt"
-  ```
+```
   then run
-  ```
+```
   pyinstaller --onefile "Scrypt.py"
-  ```
+```
   Wait for it to finish building and thats about it for setup.  
 
 <h3 align="center">Understanding the Code</h4>
