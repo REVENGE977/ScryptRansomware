@@ -1,4 +1,12 @@
-### Scrypt
+<div>
+  <h1 align="center">Scrypt</h1>
+  <h3 align="center">Ransomware with Discord Integration</h3>
+</div>
+
+ <p align="center">
+  <img width="660" height="300" src="https://github.com/backslash/ScryptRansomware/blob/master/images/ransomware.jpg?raw=true">
+</p>
+
   Scrypt is a windows Ransomware with discord integration. After trying to find a reason to procrastinate a friend gave me the idea to speedrun making ransomware, so that I did. After around 5 hours I finished up Scrypt and this is the repo containing the full source code to the ransomware, the decrypter along with some notes on how it operates. What sets Scrypt aside from all the other Ransomware clones out there is its utilization of discord webhooks to send user reports.
   
 ### Scrypt Attack Vectors
