@@ -32,6 +32,7 @@
   pip install pyqt5
   pip install requests
   pip install pyinstaller
+  pip install pyarmor
   pip install pycrypto
 ```
   Once you have all the dependencies installed go to your python file and modify this to include your information:
@@ -46,7 +47,7 @@ discordWebhook = ""
 ```
   then run
 ```
-  pyinstaller --onefile "Scrypt.py"
+  pyarmor pack -e --onefile Scrypt.py
 ```
   Wait for it to finish building and thats about it for setup.  
 
