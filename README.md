@@ -1,3 +1,7 @@
+i didn't create this thing btw,
+original creator: https://github.com/backslash
+i just forked his repo before his account got deleted.
+
 <div>
   <h1 align="center">Scrypt</h1>
   <h3 align="center">Ransomware with Discord Integration</h3>
