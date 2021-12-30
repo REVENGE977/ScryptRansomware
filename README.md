@@ -8,7 +8,7 @@ i just forked his repo before his account got deleted.
 </div>
 
  <p align="center">
-  <img width="660" height="300" src="https://github.com/backslash/ScryptRansomware/blob/master/images/ransomware.jpg?raw=true">
+  <img width="660" height="300" src="https://github.com/REVENGE977/ScryptRansomware/blob/master/images/ransomware.jpg?raw=true">
 </p>
 
   Scrypt is a windows Ransomware with discord integration. After trying to find a reason to procrastinate a friend gave me the idea to speedrun making ransomware, so that I did. After around 5 hours I finished up Scrypt and this is the repo containing the full source code to the ransomware, the decrypter along with some notes on how it operates. What sets Scrypt aside from all the other Ransomware clones out there is its utilization of discord webhooks to send user reports.
@@ -16,17 +16,17 @@ i just forked his repo before his account got deleted.
 <h3 align="center">Scrypt Attack Vectors</h4>
   Once you are hit by Scrypt you will instantly realize you are a victim. A giant screen warning the user (as shown below) will take up your entire screen, once you hit the continue button the window will become invisble so it can continue to run in the background. While I had wanted to use chacha20 for file encryption I ended up sticking to AES-128 due to my limited time.
  <p align="center">
-  <img width="660" height="300" src="https://github.com/backslash/ScryptRansomware/blob/master/images/lockscreen.png?raw=true">
+  <img width="660" height="300" src="https://github.com/REVENGE977/ScryptRansomware/blob/master/images/lockscreen.png?raw=true">
 </p>
   
   Another feature of Scrypt is its easy report feature which gives you a detailed report of your victim, I used myself below as an example for how the data looks, this can be used to easily match client ID's.
  <p align="center">
-  <img width="460" height="300" src="https://github.com/backslash/ScryptRansomware/blob/master/images/report.PNG?raw=true">
+  <img width="460" height="300" src="https://github.com/REVENGE977/ScryptRansomware/blob/master/images/report.PNG?raw=true">
 </p>
 
   Scrypt will also leave behind a nice little readme on the desktop just in case the client forgets any of his information. This will contain information such as your btc address, client, id and detailed steps to recovering there files. 
    <p align="center">
-  <img width="460" height="300" src="https://github.com/backslash/ScryptRansomware/blob/master/images/note.PNG?raw=true">
+  <img width="460" height="300" src="https://github.com/REVENGE977/ScryptRansomware/blob/master/images/note.PNG?raw=true">
 </p>
 
 <h3 align="center">Setup</h4>
